@@ -67,4 +67,41 @@ color: darkcyan;
   .image{
     position: relative;
   }
-  
+  .footer {
+  text-align: center;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+
+}
+
+.social-icons li a {
+  color: #000;
+  font-size: 20px;
+
+}
+
+/* Font Awesome Icons */
+.fab {
+  font-family: "Font Awesome 5 Free";
+ 
+}
+
+.fab.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fab.fa-facebook-f:before {
+  content: "\f39e";
+}
+
+.fab.fa-twitter:before {
+  content: "\f099";
+}
