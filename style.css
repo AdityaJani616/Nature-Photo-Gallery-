@@ -68,3 +68,20 @@ color: darkcyan;
     position: relative;
   }
   
+/* Font Awesome Icons */
+.fab {
+  font-family: "Font Awesome 5 Free";
+ 
+}
+
+.fab.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fab.fa-facebook-f:before {
+  content: "\f39e";
+}
+
+.fab.fa-twitter:before {
+  content: "\f099";
+}
